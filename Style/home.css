@@ -1,0 +1,43 @@
+main{
+    margin: 0px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+#unhas{
+    margin: 10px auto;
+    width: 80%;
+    height: 60%;
+    /* em casa, temos que redimensionar as fotos em um tamanho menor para padronizar e o site ficar responsivo! */
+}
+#unhas img{
+    height: 100%
+}
+#agenda{
+    margin: 30px;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+    max-width: 100%;
+    border-radius: 10px;
+}
+#agenda p, h5{
+    color: darkmagenta;
+    font-family: Vintage;
+    font-size: 16pt;   
+}
+#informacoes{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+.banner{
+    background-color: antiquewhite;
+    border-radius: 8px;
+    width: 400px;
+    height: 100%;
+}
+.banner img{
+    width: 50%;
+}

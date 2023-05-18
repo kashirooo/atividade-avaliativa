@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* estilo do Header GERAL */
+body{
+    background-image: url("../images/bg-unsplash.jpg");
+    background-size: 100%;
+    
+}
+header{
+    min-width: 320px;
+    max-width: 100%; /* 1200ou 800px*/
+    height: 100px;
+    min-height: auto;
+    border-bottom: solid white 1px;
+    padding: 12px;
+}
+#logo{
+    font-family: Vintage,'Times New Roman', Times, serif;
+    color: white;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo p{
+    font-size: 250%;
+    transition: 0.8s;
+}
+#logo p:hover{
+    font-size: 260%;
+    transition: 0.8s;
+    cursor: pointer;
+}
+#navegacao{
+    width: 100%;
+    height: 50%;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+li{
+    display: flex;
+}
+ul a{
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.8s;
+}
+ul a:hover{
+    border-bottom: solid white 1px;
+    transition: 0.8;
+    font-size: 16pt;
+}
+/* estilo do conteudo HOME */
+
+/* Estilo do Footer GERAL */
+footer{
+    background-color: rgb(113, 37, 151);
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#contatos{
+    display: flex;
+    gap: 30px;
+}
+#contatos span{
+    display: flex;
+}
+#contatos span:hover{
+    border-bottom: solid white 1px;
+    transition: 0.8;
+    font-size: 16pt;
+}
+/* fontes adicionadas aqui */
+
+@font-face {
+    font-family: Vintage;
+    src: url("../font/Vintage\ Signature.otf");
+}

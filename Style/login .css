@@ -1,0 +1,41 @@
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+#central{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#central h3{
+    text-decoration: underline darkmagenta;
+}
+form{
+    background-color: #fcd5a681;
+    width: 40%;
+    height: 100%;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    gap: 10px;
+}
+#acessos{
+    background-color: white;
+    width: 80%;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
