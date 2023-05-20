@@ -1,0 +1,13 @@
+#informacoes{
+    padding: 20px;
+    height: auto;
+}
+
+#banner{
+    background-color: antiquewhite;
+    border-radius: 8px;
+
+}
+#informacoes img{
+    width: 80%;
+}

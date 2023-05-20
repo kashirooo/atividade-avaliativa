@@ -24,17 +24,15 @@ main{
 #agenda p, h5{
     color: darkmagenta;
     font-family: Vintage;
-    font-size: 16pt;   
+    font-size: 20pt;   
 }
 #informacoes{
     padding: 20px;
-    display: flex;
-    justify-content: space-around;
     height: 400px;
-
 }
 #informacoes h5{
     font-family: Vintage,'Times New Roman', Times, serif;
+    font-size: 20pt;
 }
 .banner{
     background-color: antiquewhite;

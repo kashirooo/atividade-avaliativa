@@ -1,0 +1,26 @@
+
+main{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#central{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+#central p{
+    width: 50%;
+    height: auto;
+}
+.banner{
+    width: 40%;
+    height: auto;
+    background-color: rgba(169, 169, 169, 0.664);
+    text-align: justify;
+    padding-left: 15px;
+    border-radius: 10px;
+}
