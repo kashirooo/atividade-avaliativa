@@ -43,3 +43,6 @@ main{
 .banner img{
     width: 50%;
 }
+@media screen and (max-witdh: 800px){
+
+}
